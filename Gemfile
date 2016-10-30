@@ -1,11 +1,6 @@
 source 'http://rubygems.org'
-ruby "2.2.4"
+ruby "2.3.1"
 
-gem 'sqlite3', :group => [:development, :test]
-group :production do
-  gem 'thin'
-  gem 'pg'
-end
 gem 'rails', '~> 4.2.6'
 
 ## Gems in Alphabetical Order

@@ -489,7 +489,6 @@ DEPENDENCIES
   react-rails (~> 1.0)
   rest-client (~> 1.8)
   rgl
-  rjb
   rspec-rails
   rubocop
   rubyzip
@@ -509,6 +508,9 @@ DEPENDENCIES
   uglifier
   will_paginate
   zip-zip
+
+RUBY VERSION
+   ruby 2.3.1p112
 
 BUNDLED WITH
    1.13.1
