@@ -1,6 +1,11 @@
 source 'http://rubygems.org'
 ruby "2.2.4"
 
+gem 'sqlite3', :group => [:development, :test]
+group :production do
+  gem 'thin'
+  gem 'pg'
+end
 gem 'rails', '~> 4.2.6'
 
 ## Gems in Alphabetical Order
@@ -43,7 +48,7 @@ gem 'rb-readline'
 gem 'rest-client', '~> 1.8'
 gem 'RedCloth'
 gem 'rgl', require: 'rgl/adjacency'
-gem 'rjb'
+#gem 'rjb'
 gem 'rubyzip'
 gem 'rwordnet', '0.1.3'
 gem 'scrypt'
